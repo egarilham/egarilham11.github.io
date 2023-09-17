@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    background: url("wallpaperflare.com_wallpaper (1).jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.586);
+    padding: 100px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0,5);
+    width: 200px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 46px;
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #1596cd;
+    
+}
+
+.login-container input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 5px solid rgba(0, 0, 0, 0); 
+    border-radius: 77px;
+
+}
+
+.login-container button {
+    background-color: rgba(111, 166, 208, 0.256);
+    font-size: 19px;
+    font-weight:bolder;
+    color: #00bbff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 77px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
